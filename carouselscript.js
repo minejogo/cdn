@@ -5,7 +5,7 @@
         jssor_1_slider_init = function() {
 
             var jssor_1_options = {
-              $AutoPlay: 1,
+              $AutoPlay: 0,
               $SlideWidth: 720,
               $Cols: 2,
               $Align: 130,
