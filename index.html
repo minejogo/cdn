@@ -1,6 +1,8 @@
 Hello World!
 <script type="text/javascript">
-    window.location = "http://www.minejogo.com.br/";
+if (window.location == "cdn.minejogo.com.br") {
+   window.location.href = 'http://www.minejogo.com.br/'; 
+}
 </script>
 var host = "{{ site.url }}".replace(/http(s)?:\/\//g, "");
 if ((host == window.location.host) && (window.location.protocol != "https:")) {
