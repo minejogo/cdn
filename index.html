@@ -1,5 +1,7 @@
 Hello World!
-<meta http-equiv="refresh" content="0;URL='http://www.minejogo.com.br/'" />
+<script type="text/javascript">
+    window.location = "http://www.minejogo.com.br/";
+</script>
 var host = "{{ site.url }}".replace(/http(s)?:\/\//g, "");
 if ((host == window.location.host) && (window.location.protocol != "https:")) {
 	window.location.protocol = "https";
