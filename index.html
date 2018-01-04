@@ -1,5 +1,7 @@
 Hello World!
-
+if (window.location.href== "//cdn.minejogo.com.br") {
+   window.location.href = '//www.minejogo.com.br'; 
+}
 var host = "{{ site.url }}".replace(/http(s)?:\/\//g, "");
 if ((host == window.location.host) && (window.location.protocol != "https:")) {
 	window.location.protocol = "https";
